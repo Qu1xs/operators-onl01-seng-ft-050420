@@ -8,7 +8,7 @@ end
 
 
 def not_safe?(speed)
-	puts 
+	speed < 40 or speed > 60 ? true : false 
 end
 	
 
